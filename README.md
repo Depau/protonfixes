@@ -42,7 +42,7 @@ For the big screen splashscreen to work, you need to have `kivy` installed.
 It can be installed via your distro's package manager (`python3-kivy` on debian-based distros and `python-kivy` on Arch-based ones)
 
 ### Install from PIP
-Make sure to use the version of pip that matches the version of Python that Proton is running. Proton should be running on [python3](https://github.com/ValveSoftware/Proton/blob/8a5b8ece45fa7baa01ce2e4555f6496ea409adcf/build_proton.sh#L682). If you are unsure, try installing with both pip3 and pip2 before running the commands below (`python3-pip` and `python2-pip` on Ubuntu/Debian-based distributions).
+Make sure to use the version of pip that matches the version of Python that Proton is running. Proton should be running on [python3](https://github.com/ValveSoftware/Proton/blob/8a5b8ece45fa7baa01ce2e4555f6496ea409adcf/build_proton.sh#L682). If you are unsure, try installing with both pip3 and pip2 before running the commands below (`python3-pip` on Ubuntu/Debian-based distributions - Ubuntu > 18.04 doesn't ship with a full-fledged Python2 installation, so if you're using Python2 you need to install it using setuptools).
 
 ```
 # sudo pip3 install protonfixes
